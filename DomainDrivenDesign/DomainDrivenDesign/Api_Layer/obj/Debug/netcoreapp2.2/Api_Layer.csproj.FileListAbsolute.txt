@@ -1,0 +1,3 @@
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.csproj.CoreCompileInputs.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.AssemblyInfoInputs.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.AssemblyInfo.cs
