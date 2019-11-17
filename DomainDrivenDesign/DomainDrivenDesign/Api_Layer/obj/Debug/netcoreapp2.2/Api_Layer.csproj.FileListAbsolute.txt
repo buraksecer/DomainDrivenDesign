@@ -1,3 +1,14 @@
 F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.csproj.CoreCompileInputs.cache
 F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.AssemblyInfoInputs.cache
 F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.AssemblyInfo.cs
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\bin\Debug\netcoreapp2.2\Api_Layer.deps.json
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\bin\Debug\netcoreapp2.2\Api_Layer.runtimeconfig.json
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\bin\Debug\netcoreapp2.2\Api_Layer.runtimeconfig.dev.json
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\bin\Debug\netcoreapp2.2\Api_Layer.dll
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.csprojAssemblyReference.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.RazorAssemblyInfo.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.RazorAssemblyInfo.cs
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.RazorTargetAssemblyInfo.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\bin\Debug\netcoreapp2.2\Api_Layer.pdb
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.dll
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Api_Layer\obj\Debug\netcoreapp2.2\Api_Layer.pdb
