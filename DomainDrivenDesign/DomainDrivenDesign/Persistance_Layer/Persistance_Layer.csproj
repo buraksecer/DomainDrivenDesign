@@ -6,7 +6,11 @@
 
   <ItemGroup>
     <Folder Include="EntityFrameworkDataAccess\" />
-    <Folder Include="Infrastructure\" />
+    <Folder Include="DapperDataAccess\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.9.3" />
   </ItemGroup>
 
 </Project>
