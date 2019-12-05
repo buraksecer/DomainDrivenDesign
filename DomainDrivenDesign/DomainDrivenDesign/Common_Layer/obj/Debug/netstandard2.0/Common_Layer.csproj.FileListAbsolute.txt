@@ -1,0 +1,4 @@
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.csprojAssemblyReference.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.csproj.CoreCompileInputs.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.AssemblyInfoInputs.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.AssemblyInfo.cs
