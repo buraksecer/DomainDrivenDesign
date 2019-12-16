@@ -2,8 +2,8 @@
 {
     public interface ICacheMemory<T> where T : class
     {
-        string GetByValue(string T);
-        void InsertValue(string value, string key);
-        void DeleteValue(string T);
+        bool InsertValue(string key, object value);
+        T GetByValue<T>(string key) where T : class;
+        bool DeleteValue(string key);
     }
 }
