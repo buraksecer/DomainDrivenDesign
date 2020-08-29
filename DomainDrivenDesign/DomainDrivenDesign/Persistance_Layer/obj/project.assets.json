@@ -2,31 +2,6 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Dapper/2.0.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Reflection.Emit.Lightweight": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Dapper.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Dapper.dll": {}
-        }
-      },
-      "Dapper.SimpleCRUD/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Dapper": "2.0.0",
-          "Microsoft.CSharp": "4.4.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Dapper.SimpleCRUD.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Dapper.SimpleCRUD.dll": {}
-        }
-      },
       "DnsClient/1.2.0": {
         "type": "package",
         "dependencies": {
@@ -2402,38 +2377,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Domain_Layer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Domain_Layer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain_Layer.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "Dapper/2.0.4": {
-      "sha512": "DrNPDqK3nR4RpwAPX2R0R34YhlT+k5Fbw7UnqxQ2aH+wSWvEIj+fCDXB8RJWgw6fGFZLavq7nuJ6J/eAqSrIpw==",
-      "type": "package",
-      "path": "dapper/2.0.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "dapper.2.0.4.nupkg.sha512",
-        "dapper.nuspec",
-        "lib/netstandard2.0/Dapper.dll",
-        "lib/netstandard2.0/Dapper.xml"
-      ]
-    },
-    "Dapper.SimpleCRUD/2.2.0": {
-      "sha512": "1vgKSAMuAa/hpWKlSeJ5fuGrYvxHqeBMXxvF/2auJbHF3nOVWKCYYJBJ+m/2UwB6P2xxFw/olAlFQZiPSiSgeA==",
-      "type": "package",
-      "path": "dapper.simplecrud/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "License.txt",
-        "dapper.simplecrud.2.2.0.nupkg.sha512",
-        "dapper.simplecrud.nuspec",
-        "lib/netstandard2.0/Dapper.SimpleCRUD.dll",
-        "lib/netstandard2.0/Dapper.SimpleCRUD.pdb",
-        "lib/netstandard2.0/Dapper.SimpleCRUD.xml"
-      ]
-    },
     "DnsClient/1.2.0": {
       "sha512": "P34wUkeqU4FoQiOMV8OjpdeDZKs4d3r+VlHuKJ6eO5feiZgna3+9MF5orHRUn3DAv1g/HPE5hlkGucmxmsFfBw==",
       "type": "package",
@@ -3817,7 +3774,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
+      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -8087,11 +8044,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Domain_Layer/1.0.0": {
+      "type": "project",
+      "path": "../Domain_Layer/Domain_Layer.csproj",
+      "msbuildProject": "../Domain_Layer/Domain_Layer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Dapper.SimpleCRUD >= 2.2.0",
+      "Domain_Layer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
       "MongoDB.Driver >= 2.10.0",
@@ -8129,7 +8091,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\GitProjectOrigin\\DomainDrivenDesign\\DomainDrivenDesign\\DomainDrivenDesign\\Domain_Layer\\Domain_Layer.csproj": {
+              "projectPath": "F:\\GitProjectOrigin\\DomainDrivenDesign\\DomainDrivenDesign\\DomainDrivenDesign\\Domain_Layer\\Domain_Layer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -8141,10 +8107,6 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "Dapper.SimpleCRUD": {
-            "target": "Package",
-            "version": "[2.2.0, )"
-          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.0, )"
@@ -8179,17 +8141,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Dapper.SimpleCRUD 2.2.0 depends on Dapper (>= 2.0.0) but Dapper 2.0.0 was not found. An approximate best match of Dapper 2.0.4 was resolved.",
-      "libraryId": "Dapper",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

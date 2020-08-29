@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "MediatR/8.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -25,10 +34,51 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Common_Layer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Domain_Layer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Common_Layer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common_Layer.dll": {}
+        }
+      },
+      "Domain_Layer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Domain_Layer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain_Layer.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MediatR/8.1.0": {
+      "sha512": "KJFnA0MV83bNOhvYbjIX1iDykhwFXoQu0KV7E1SVbNA/CmO2I7SAm2Baly0eS7VJ2GwlmStLajBfeiNgTpvYzQ==",
+      "type": "package",
+      "path": "mediatr/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.8.1.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "bK/ZELyEO9xVlg2h7oju35VomDiF5FOMK1scD5gh2rOZQTKx5PBKMZ4CSOwKvGKe+mhToRGrEXtjrIOxgML4fw==",
       "type": "package",
@@ -171,10 +221,23 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Common_Layer/1.0.0": {
+      "type": "project",
+      "path": "../Common_Layer/Common_Layer.csproj",
+      "msbuildProject": "../Common_Layer/Common_Layer.csproj"
+    },
+    "Domain_Layer/1.0.0": {
+      "type": "project",
+      "path": "../Domain_Layer/Domain_Layer.csproj",
+      "msbuildProject": "../Domain_Layer/Domain_Layer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Common_Layer >= 1.0.0",
+      "Domain_Layer >= 1.0.0",
+      "MediatR >= 8.1.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -207,7 +270,14 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\GitProjectOrigin\\DomainDrivenDesign\\DomainDrivenDesign\\DomainDrivenDesign\\Common_Layer\\Common_Layer.csproj": {
+              "projectPath": "F:\\GitProjectOrigin\\DomainDrivenDesign\\DomainDrivenDesign\\DomainDrivenDesign\\Common_Layer\\Common_Layer.csproj"
+            },
+            "F:\\GitProjectOrigin\\DomainDrivenDesign\\DomainDrivenDesign\\DomainDrivenDesign\\Domain_Layer\\Domain_Layer.csproj": {
+              "projectPath": "F:\\GitProjectOrigin\\DomainDrivenDesign\\DomainDrivenDesign\\DomainDrivenDesign\\Domain_Layer\\Domain_Layer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -219,6 +289,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[8.1.0, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

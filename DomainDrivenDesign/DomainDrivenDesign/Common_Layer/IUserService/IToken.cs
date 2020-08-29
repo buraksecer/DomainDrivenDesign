@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Claims;
 
 namespace Common_Layer.IUserService
 {

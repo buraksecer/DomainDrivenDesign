@@ -1,0 +1,14 @@
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\bin\Debug\netstandard2.0\Application_Layer.deps.json
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\bin\Debug\netstandard2.0\Application_Layer.dll
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\bin\Debug\netstandard2.0\Application_Layer.pdb
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\bin\Debug\netstandard2.0\Common_Layer.dll
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\bin\Debug\netstandard2.0\Domain_Layer.dll
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\bin\Debug\netstandard2.0\Common_Layer.pdb
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\bin\Debug\netstandard2.0\Domain_Layer.pdb
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\obj\Debug\netstandard2.0\Application_Layer.csprojAssemblyReference.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\obj\Debug\netstandard2.0\Application_Layer.csproj.CoreCompileInputs.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\obj\Debug\netstandard2.0\Application_Layer.AssemblyInfoInputs.cache
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\obj\Debug\netstandard2.0\Application_Layer.AssemblyInfo.cs
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\obj\Debug\netstandard2.0\Application_Layer.csproj.CopyComplete
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\obj\Debug\netstandard2.0\Application_Layer.dll
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Application_Layer\obj\Debug\netstandard2.0\Application_Layer.pdb

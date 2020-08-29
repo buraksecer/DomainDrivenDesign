@@ -5,12 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Context\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Extensions\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Notifications\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common_Layer\Common_Layer.csproj" />
+    <ProjectReference Include="..\Domain_Layer\Domain_Layer.csproj" />
   </ItemGroup>
 
 </Project>

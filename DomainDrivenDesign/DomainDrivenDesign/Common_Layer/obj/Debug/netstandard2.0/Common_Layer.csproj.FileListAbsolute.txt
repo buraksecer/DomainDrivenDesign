@@ -1,4 +1,12 @@
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\bin\Debug\netstandard2.0\Common_Layer.deps.json
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\bin\Debug\netstandard2.0\Common_Layer.dll
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\bin\Debug\netstandard2.0\Common_Layer.pdb
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\bin\Debug\netstandard2.0\Domain_Layer.dll
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\bin\Debug\netstandard2.0\Domain_Layer.pdb
 F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.csprojAssemblyReference.cache
 F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.csproj.CoreCompileInputs.cache
 F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.AssemblyInfoInputs.cache
 F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.AssemblyInfo.cs
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.csproj.CopyComplete
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.dll
+F:\GitProjectOrigin\DomainDrivenDesign\DomainDrivenDesign\DomainDrivenDesign\Common_Layer\obj\Debug\netstandard2.0\Common_Layer.pdb

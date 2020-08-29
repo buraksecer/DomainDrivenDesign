@@ -4,13 +4,10 @@ using System.Data;
 
 namespace Persistance_Layer.Infrastructure.UnitOfWork
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork 
     {
-        IWriteOnlyRepository<TEntity> GetWriteRepository<TEntity>() where TEntity : class;
-
-        int SaveChanges();
-
-        void BeginTransaction(IsolationLevel isolationLevel = IsolationLevel.ReadCommitted);
+        IWriteOnlyRepository<TEntity> GetWriteRepository<TEntity>() where TEntity : class, new();
+        IReadOnlyRepository<TEntity> GetReadRepository<TEntity>() where TEntity : class, new();
 
     }
 }

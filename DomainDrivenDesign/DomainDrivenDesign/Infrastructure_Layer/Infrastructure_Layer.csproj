@@ -7,7 +7,11 @@
   <ItemGroup>
     <Folder Include="MailService\" />
     <Folder Include="UserService\" />
-    <Folder Include="OutService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application_Layer\Application_Layer.csproj" />
+    <ProjectReference Include="..\Common_Layer\Common_Layer.csproj" />
   </ItemGroup>
 
 </Project>
